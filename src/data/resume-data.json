@@ -1,0 +1,101 @@
+{
+  "firstName": "Oleg",
+  "lastName": "Tremba",
+  "title": "Full Stack Developer",
+  "description": "I am a Full Stack developer. Looking for full-time position in a friendly company. I am a fast learner, proactive, inventive and responsible. Sometimes creative. Also have practical skills experience using Agile/Scrum methodology while working in team. I will gladly take part in new projects.",
+  "projects": [
+    {
+      "id":1,
+      "name": "Wallet",
+      "linkProduction": "https://alex-main-academy.github.io/wallet/",
+      "linkRepository":"https://github.com/alex-main-academy/wallet",
+      "type": "team project",
+      "technologies": ["HTML", "CSS", "JS", "React", "Swagger", "Axios"],
+      "responsibilities": "My responsibilities: table on main page and loader.",
+      "role": "Frontend Developer",
+      "imgUrl":"/img/wallet-img.jpg"
+    },
+    {
+      "id":2,
+      "name": "Filmoteka",
+      "linkProduction": "https://alex-underr.github.io/javaScreamProject/",
+      "linkRepository":"https://github.com/Alex-Underr/javaScreamProject",
+      "type": "team project",
+      "technologies": ["HTML", "SASS", "JS", "Axios"],
+      "responsibilities": "My responsibilities: pagination, footer, modal window in footer, scroll to up button.",
+      "role": "Frontend Developer",
+      "imgUrl":"/img/filmoteka-img.jpg"
+    },
+    {
+      "id":3,
+      "name": "Petly",
+      "linkProduction": "https://pets-team-node-wizards-front.netlify.app/",
+      "linkRepository":"https://github.com/olegtremba1234/pets-team-node-wizards-front",
+      "type": "team project",
+      "technologies": ["HTML", "SASS", "JS", "React", "Node.JS"],
+      "responsibilities": "My responsibilities: create Login and Registration screen, deploy project on Netlify, deploy backend on Onrender, connect MongoDB.",
+      "role": "Team Lead",
+      "imgUrl":"/img/petly-img.jpg"
+    }
+  ],
+  "education": [
+    {
+      "id":1,
+      "institution": "IT School GoIT (Kyiv)",
+      "startDate": "September 2022",
+      "endDate": "April 2023",
+      "degree": "Computer engineering, Bachelor of Science in Computer engineering",
+      "location":"Kyiv"
+    },
+    {
+      "id":2,
+      "institution": "Ternopil Ivan Puluj National Technical University",
+      "startDate": "2006",
+      "endDate": "2012",
+      "degree": "Computer engineering",
+      "location": "Ternopil"
+    }
+  ],
+  "softSkills": ["Attention to detail", "Teamwork", "Creativity", "Good communication"],
+  "techSkills": ["HTML5/CSS3/SASS", "JavaScript", "TypeScript", "React", "Node.js", "GitHub", "REST API", "MongoDB", "Express", "Webpack", "Parcel", "Redux"],
+  "languages": [
+    { "name": "English", "level": "Intermediate" },
+    { "name": "Ukrainian", "level": "Native" }
+  ],
+  "workExperience": [
+    {
+      "id":1,
+      "position": "Sales Manager",
+      "company": "TH \"Forsage\"",
+      "startDate": "mar 2021",
+      "endDate": "apr 2022",
+      "location":"Kyiv",
+      "responsibilities": [
+        "Communication with clients.",
+        "Promotion of new product positions.",
+        "Fulfillment of customer orders.",
+        "Achievement: I've increased the sales on 30%"
+      ]
+    },
+    {
+      "id":2,
+      "position": "Section head of \"Tools\" department",
+      "company": "EPICENTR K LLC",
+      "startDate": "oct 2017",
+      "endDate": "mar 2021",
+      "location":"Kyiv",
+      "responsibilities": [
+        "Conrol production sales.",
+        "Training of the staff of the section and department.",
+        "Conducting monitoring of competitors.",
+        "Achievement: I've increased the sales plan by 25%"
+      ]
+    }
+  ],
+  "contacts": {
+    "email": "olegtremba@gmail.com",
+    "telegram": "+380978723353",
+    "location": "Kyiv, Ukraine",
+    "linkedin": "Link"
+  }
+}
