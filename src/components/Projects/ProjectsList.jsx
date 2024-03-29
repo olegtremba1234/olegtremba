@@ -1,5 +1,5 @@
-import { GitHub } from '@mui/icons-material'
-import Link from '@mui/material/Link';
+import { GitHub, Link } from '@mui/icons-material'
+// import Link from '@mui/material/Link';
 import resumeData from '../../data/resume-data.json'
 
 
@@ -11,15 +11,23 @@ export const ProjectsList = () => {
         {projects.map((project) => (
           <li className='projects-list-item' key={project.id}>
             <div className='project-info-container'>
-              <div className='project-name-container'>
-                <div className='project-title-rectangle'></div>
-                <h3 className='project-name'>{project.name}</h3>
-                <p className='project-role'>{project.role} </p>
-              </div>
-              <p>Technologies:{project.technologies}</p>
-              <p>{project.responsibilities}</p>
               <div>
-                <Link href={project.linkProduction}>Link</Link>
+                <div className='project-name-container'>
+                  <div className='project-title-rectangle'></div>
+                  <h3 className='project-name'>{project.name}</h3>
+                  <p className='project-role'>{project.role} </p>
+                </div>
+                <p>Technologies: {project.technologies.join()}.</p>
+                <p>{project.responsibilities}</p>
+              </div>
+              <div className='project-links-container'>
+                <a
+                  href={project.linkProduction}
+                  target="_blank"
+                  rel='noopener noreferrer nofollow'
+                >
+                  <Link />
+                </a>
                 <a
                   href={project.linkRepository}
                   target="_blank"
