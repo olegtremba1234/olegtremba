@@ -1,9 +1,11 @@
 import { Projects } from "../../components/Projects"
 
-export const ProjectsPage = () => {
+const ProjectsPage = () => {
     return (
         <div className="container">
             <Projects />
         </div>
     )
 }
+
+export default ProjectsPage

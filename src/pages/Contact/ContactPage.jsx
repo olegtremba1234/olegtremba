@@ -1,8 +1,11 @@
 import { Contact } from "../../components/Contact"
-export const ContactPage = () => {
+
+const ContactPage = () => {
   return (
     <div className="container">
       <Contact />
     </div>
   )
 }
+
+export default ContactPage

@@ -1,6 +1,6 @@
 import { About } from "../../components/About"
 
-export const AboutPage = () => {
+const AboutPage = () => {
   return (
     <div>
       <div className="test-bg-container">
@@ -11,3 +11,5 @@ export const AboutPage = () => {
     </div>
   )
 }
+
+export default AboutPage

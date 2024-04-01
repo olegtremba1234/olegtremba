@@ -1,9 +1,11 @@
 import { Resume } from '../../components/Resume/index'
 
-export const ResumePage = () => {
+const ResumePage = () => {
     return (
         <div className='container'>
             <Resume />
         </div>
     )
 }
+
+export default ResumePage
